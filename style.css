@@ -133,13 +133,14 @@ input {
 }
 
 #user-menu-button {
-  height: 47%;
+  /* height: 47%; */
+  width: 90%;
   position: absolute;
   right: 0rem;
   bottom: 0rem;
   background-color: transparent;
-  margin-right: 3.52%;
-  margin-bottom: 2.7%;
+  margin-right: 4.6%;
+  margin-bottom: 4.5%;
   padding: 0rem;
   border: none;
   border-radius: 100%;
@@ -148,6 +149,7 @@ input {
 #user-menu-button > img {
   display: flex;
   height: 100%;
+  width: 100%;
   border-radius: inherit;
 }
 
@@ -259,22 +261,25 @@ input {
 #apps-container > a:first-child {
   border-top-left-radius: 0.5rem;
 }
-
-#apps-container > a:nth-child(2) {
+#apps-container > a:nth-child(1) {
+  color: rgb(28, 147, 228);
+  border-top-right-radius: 0.5rem;
+}
+#apps-container > a:nth-child(4) {
   color: rgb(255, 0, 0);
   border-top-right-radius: 0.5rem;
 }
 
 #apps-container > a:nth-child(3) {
-  color: rgb(28, 204, 91);
+  color: rgb(230, 94, 9);
 }
 
-#apps-container > a:nth-child(4) {
-  color: rgb(28, 147, 228);
+#apps-container > a:nth-child(2) {
+  color: rgb(22, 70, 172);
 }
 
 #apps-container > a:nth-child(5) {
-  color: rgb(242, 85, 90);
+  color: rgb(231, 43, 218);
 }
 
 #apps-container > a:nth-child(7) {
@@ -282,7 +287,7 @@ input {
 }
 
 #apps-container > a:last-child {
-  color: rgb(15, 118, 14);
+  color: rgb(193, 99, 6);
   border-bottom-right-radius: 0.5rem;
 }
 
@@ -383,6 +388,7 @@ input {
   flex-wrap: wrap;
   justify-content: right;
   gap: 8px;
+  margin-top: 35%;
 }
 .social-button {
   position: relative;
@@ -436,7 +442,6 @@ input {
   background-color: white;
   border: none;
   padding: 0;
-  margin: 0 5px;
   font-size: 24px; /* adjust the font size to match the other icons */
 }
 .social-button--youtube {
@@ -444,7 +449,6 @@ input {
   background-color: white;
   border: none;
   padding: 0;
-  margin: 0 5px;
   font-size: 24px; /* adjust the font size to match the other icons */
 }
 .social-button--mail {
@@ -484,10 +488,10 @@ input {
   background: #7da10e;
 }
 .social-button--snapchat {
-  color: #eec900;
+  color: #045f27;
 }
 .social-button--snapchat::after {
-  background: #eec900;
+  background: #045f27;
 }
 .social-button--twitter {
   color: #55acee;
@@ -812,6 +816,8 @@ a {
 
 .inner-container {
   display: flex;
+  width: 100%;
+  margin-left: 100%;
   flex-direction: column;
 }
 

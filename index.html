@@ -3,6 +3,8 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -14,9 +16,15 @@
         <div id="main">
             <div id="content">
                 <div id="links-container" style="padding-left: 30%; padding-right: 30%;">
-                    <a href="https://gmail.com">Gmail</a>
-                    <a href="https://unsplash.com">Unsplash</a>
-                    <a href="http://eswar-prasad-kona.netlify.app">My site</a>
+                    <a data-aos="fade-down-left" target="_blank" href="https://turito.com">Turito</a>
+                    <a data-aos="fade-right" target="_blank" href="https://tmsadmin.turito.com">TMS</a>
+                    <a data-aos="fade-in" data-aos-delay="400" target="_blank"
+                        href="http://52.66.18.108:8099/home/content-partners">CMS</a>
+                    <a data-aos="fade-left" target="_blank"
+                        href="https://turitoindia.greythr.com/v3/portal/ess/emp-info">Greythr</a>
+                    <a data-aos="fade-down-right" target="_blank"
+                        href="http://192.168.74.115:8080/view/YuppMaster/job/qa4-turiro-teacher-management/?auto_refresh=true">Jenkins</a>
+                    <!-- <a href="http://eswar-prasad-kona.netlify.app">Portfolio</a> -->
                     <!-- <a href="https://beacons.ai/developerrahul">About</a> -->
                 </div>
                 <div id="header-container">
@@ -33,44 +41,54 @@
                         <div class="child">
                             <a style="display: inline-block;">
                                 <h3 class="txt-ne" data-text="Eswar Prasad Kona">
-                                    <div id="editable-text">Eswar Prasad Kona⚡</div>
+                                    <div id="editable-text">Eswar Prasad Kona ⚡</div>
                                 </h3>
                             </a>
                         </div>
-                        <div class='child inner-container'> <button type="button" id="user-menu-button">
-                                <img src="d.jpeg" style="height: 100px; width: 100px; " alt="" />
-                            </button>
+                        <div class='child inner-container'>
+
                             <div class="social-buttons">
 
-                                <a target="_blank" href="https://www.instagram.com/eshwar_speaks_/"
+                                <a data-aos="zoom-in" data-aos-delay="500" target="_blank"
+                                    href="https://www.instagram.com/eshwar_speaks_/"
                                     class="social-button social-button--instagram" aria-label="Instagram">
                                     <i class="fab fa-instagram"></i>
                                 </a>
-                                <a target="_blank" href="https://www.youtube.com"
-                                    class="social-button social-button--youtube" aria-label="YouTube">
+                                <a data-aos="zoom-in" data-aos-delay="600" target="_blank"
+                                    href="https://www.youtube.com" class="social-button social-button--youtube"
+                                    aria-label="YouTube">
                                     <i class="fab fa-youtube"></i>
                                 </a>
-                                <a target="_blank" href="https://www.facebook.com"
-                                    class="social-button social-button--facebook" aria-label="Facebook">
+                                <a data-aos="zoom-in" data-aos-delay="700" target="_blank"
+                                    href="https://www.facebook.com" class="social-button social-button--facebook"
+                                    aria-label="Facebook">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a target="_blank" href="https://www.linkedin.com/ineswar-prasad-kona"
+                                <a data-aos="zoom-in" data-aos-delay="800" target="_blank"
+                                    href="https://www.linkedin.com/ineswar-prasad-kona"
                                     class="social-button social-button--linkedin" aria-label="LinkedIn">
                                     <i class="fab fa-linkedin-in"></i>
                                 </a>
-                                <a target="_blank" href="https://www.snapchat.com"
-                                    class="social-button social-button--snapchat" aria-label="Snapchat">
-                                    <i class="fab fa-snapchat-ghost"></i>
+                                <a data-aos="zoom-in" data-aos-delay="900" target="_blank"
+                                    href="https://www.snapchat.com" class="social-button social-button--snapchat"
+                                    aria-label="Snapchat">
+                                    <i class="fab fa-spotify"></i>
                                 </a>
-                                <a target="_blank" href="https://github.com/Eshh"
-                                    class="social-button social-button--github" aria-label="GitHub">
+                                <!-- <a data-aos="zoom-in" data-aos-delay="600" target="_blank"
+                                    href="https://github.com/Eshh" class="social-button social-button--github"
+                                    aria-label="GitHub">
                                     <i class="fab fa-github"></i>
-                                </a>
+                                </a> -->
                                 <!-- <a href="https://codepen.io/rahul-sahni"
                                         class="social-button social-button--codepen" aria-label="CodePen">
                                         <i class="fab fa-codepen"></i>
                                     </a> -->
                             </div>
+                            <a data-aos="zoom-in" href="https://eswar-prasad-kona.netlify.app">
+                                <button type="button" id="user-menu-button">
+                                    <img src="d.jpeg" style="height: 80; width: 80;margin-right: 10%; " alt="" />
+                                </button>
+                            </a>
                         </div>
                     </div>
 
@@ -81,8 +99,8 @@
 
 
 
-                <div id="search-container" style="margin-top: 5%;">
-                    <div id="search-input-container">
+                <div data-aos="zoom-in" id="search-container" style="margin-top: 5%;margin-left:3%;width:90vw">
+                    <div id="search-input-container" style="flex-grow:1">
                         <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" />
                         <input type="text" placeholder="Search anything" id="search" />
                     </div>
@@ -98,19 +116,29 @@
 
                 <div id="apps-container">
 
-                    <a target="_blank" href="#" id="link">
-                        <i class="fa-brands fa-stack-overflow"></i>
+                    <a data-aos="flip-left" data-aos-delay="0" target="_blank"
+                        href="https://outlook.office365.com/mail/">
+                        <i class="fas fa-envelopes-bulk"></i>
                         <div class="label">
-                            <span class="name">Stack Overflow</span>
-                            <span class="url" contenteditable="true">stackoverflow.com</span>
+                            <span class="name">Outlook</span>
+                            <!-- <span class="url">https://outlook.office365.com/mail/</span> -->
                         </div>
                     </a>
-
-                    <a target="_blank" href="#" id="link2">
-                        <i class="fa-brands fa-github"></i>
+                    <a data-aos="flip-right" target="_blank"
+                        href="https://yupptv.atlassian.net/jira/software/c/projects/TURT/boards/115">
+                        <i class="fa-brands fa-jira"></i>
                         <div class="label">
-                            <span class="name">Github</span>
-                            <span class="url" contenteditable="true">github.com</span>
+                            <span class="name">Jira</span>
+                            <span class="url">
+                                https://yupptv.atlassian.net
+                            </span>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://www.gmail.com" id="link2">
+                        <i class="fa-brands fa-google"></i>
+                        <div class="label">
+                            <span class="name">Gmail</span>
+                            <span class="url" contenteditable="true">https://www.gmail.com</span>
                         </div>
                     </a>
 
@@ -127,38 +155,25 @@
                         </div>
                     </a>
 
-                    <a target="_blank" href="https://codepen.io">
-                        <i class="fa-brands fa-codepen"></i>
-                        <div class="label">
-                            <span class="name">CodePen</span>
-                            <span class="url">codepen.io</span>
-                        </div>
-                    </a>
-                    <a target="_blank" href="https://youtube.com">
-                        <i class="fa-brands fa-youtube"></i>
-                        <div class="label">
-                            <span class="name">YouTube</span>
-                            <span class="url">youtube.com</span>
-                        </div>
-                    </a>
-                    <a target="_blank" href="https://spotify.com">
-                        <i class="fa-brands fa-spotify"></i>
-                        <div class="label">
-                            <span class="name">Spotify</span>
-                            <span class="url">spotify.com</span>
-                        </div>
-                    </a>
 
-                    <a target="_blank" href="https://netflix.com">
 
-                        <img src="https://iili.io/HMIU1g2.png" style="height: 24px; width: 24px;">
+                    <a target="_blank" href="https://www.udemy.com/home/my-courses/learning/">
+                        <i class="fa-solid fa-u"></i>
                         <div class="label">
-                            <span class="name">Netflix</span>
-                            <span class="url">netflix.com</span>
+                            <span class="name">Udemy</span>
+                            <span class="url">https://www.udemy.com</span>
                         </div>
                     </a>
 
 
+
+                    <a target="_blank" href="www.stackoverflow.com" id="link">
+                        <i class="fa-brands fa-stack-overflow"></i>
+                        <div class="label">
+                            <span class="name">Stack Overflow</span>
+                            <span class="url" contenteditable="true">stackoverflow.com</span>
+                        </div>
+                    </a>
                     <!-- <a href="#">
                             <i class="fa-brands fa-xbox"></i>
                             <div class="label">
@@ -232,6 +247,15 @@
 
             window.location.href = url;
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 100,
+            duration: 2000,
+            once: true
+
+        });
     </script>
     <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script>
 </body>
