@@ -282,12 +282,17 @@ input {
   color: rgb(231, 43, 218);
 }
 
-#apps-container > a:nth-child(7) {
+#apps-container > a:nth-child(6) {
+  color: rgb(193, 99, 6);
   border-bottom-left-radius: 0.5rem;
 }
 
-#apps-container > a:last-child {
-  color: rgb(193, 99, 6);
+#apps-container > a:nth-child(7) {
+  color: rgb(12, 180, 20);
+  border-bottom-right-radius: 0.5rem;
+}
+#apps-container > a:nth-child(8) {
+  color: rgb(187, 8, 5);
   border-bottom-right-radius: 0.5rem;
 }
 
